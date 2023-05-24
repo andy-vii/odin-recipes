@@ -3,16 +3,21 @@
     line-height: 1.5;
 }
 
-ul,
-ol {
-    list-style-position: inside;
-}
-
 ul {
     list-style-type: circle;
+}
+
+li {
+    text-align: left;
 }
 
 img {
     width: 500px;
     height: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
 }
