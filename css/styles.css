@@ -1,9 +1,18 @@
 * {
     text-align: center;
-    align-items: center;
+    line-height: 1.5;
 }
 
 ul,
 ol {
     list-style-position: inside;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+img {
+    width: 500px;
+    height: auto;
 }
