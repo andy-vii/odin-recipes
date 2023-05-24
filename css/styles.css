@@ -32,3 +32,8 @@ h1,
 .steps h3 {
     text-align: right;
 }
+
+h3 {
+    padding: 15px;
+    outline: double black;
+}
