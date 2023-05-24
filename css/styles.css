@@ -3,6 +3,10 @@
     background-color: cornsilk;
 }
 
+div {
+    text-align: center;
+}
+
 ul {
     list-style-type: circle;
 }
@@ -11,7 +15,7 @@ img {
     width: 500px;
     height: auto;
     outline-style: double;
-    outline-color: black;
+    outline-color: black;  
 }
 
 h1,
@@ -39,6 +43,6 @@ h3 {
 }
 
 #recipe-list {
-    text-align: center;
     list-style-position: inside;
+    font-weight: bold;
 }
