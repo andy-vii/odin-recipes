@@ -1,5 +1,6 @@
 * {
     line-height: 1.5;
+    background-color: cornsilk;
 }
 
 ul {
@@ -9,6 +10,8 @@ ul {
 img {
     width: 500px;
     height: auto;
+    outline-style: double;
+    outline-color: black;
 }
 
 h1,
@@ -18,7 +21,7 @@ h1,
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 
