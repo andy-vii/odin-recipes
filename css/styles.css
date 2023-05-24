@@ -1,5 +1,4 @@
 * {
-    text-align: center;
     line-height: 1.5;
 }
 
@@ -7,17 +6,25 @@ ul {
     list-style-type: circle;
 }
 
-li {
-    text-align: left;
-}
-
 img {
     width: 500px;
     height: auto;
+}
+
+.description {
+    text-align: center;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
+}
+
+.grid-child {
+    text-align: left;
+}
+
+.steps h3 {
+    text-align: right;
 }
